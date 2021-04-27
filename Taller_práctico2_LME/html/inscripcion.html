@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/inscripcion.css">
+	<link rel="stylesheet" type="text/css" href="../css/footer.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+		<img class="logo" src="../img/icono.jpeg" width="90px" alt="logo">
+		<nav class="menu">
+			 <ul>
+                <li><a href="../index.html">Plantilla</a></li>
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="#" class="active">Inscripción en línea</a></li>
+                <li><a href="videos.html" >Video</a></li>
+			</ul>
+	</header>
+	<section class="sec">
+        <div class="ins">
+            <h1>Inscribete</h1>
+            <div>
+                <fieldset>
+                    <legend>Datos personales</legend>
+                <form action="">
+                    <p>
+                        <label>Nombre:</label>
+                        <input type="text" name="nombre" required pattern="[A-Za-z]+">
+                    </p>
+                    <p>
+                        <label>Apellido: </label>
+                        <input type="text" name="apellidos" required pattern="[A-Za-z]+">
+                    </p>
+                    
+                    <p>
+                        <label>Correo electrónico:</label>
+                        <input type="email" name="email" required pattern="[A-Za-z]+">
+                    </p>
+                    <p>
+                        <label>Departamento:</label>
+                        <input type="text" name="dep" required pattern="[A-Za-z]+">
+                    </p>
+                    <p>
+                        <label>Fecha de nacimiento</label>
+                        <input type="date" id="fecha" name="fecha" value="1999-01-01">
+                    </p>
+                    <p>
+                        <label>Edad</label>
+                    <input id="edad" name="edad" type="number" required pattern="[0-9]">
+                </p>
+                    <p>
+                        <label>Género</label>
+                        <select name="genero" id="genero">
+                            <option value="M">Masculino</option>
+                            <option value="F">Femenino</option>
+                          </select>
+
+                    </p>
+                    
+                    
+                    <p class="block">
+                       <label>Domicilio</label> 
+                        <textarea name="message" rows="3" required pattern="[A-Z]"></textarea>
+                    </p>
+                    <p class="block">
+                        <button>
+                            Registrarse
+                        </button>
+                    </p>
+                </form>
+            </fieldset>
+            </div>
+        </div>
+
+    </section>
+
+	<footer>
+        <div class="socials">
+            
+            <a href="https://www.twitter.com/" target="_blank" class="twitter"></a>
+            <a href="https://www.instagram.com/" target="_blank" class="insta"></a>
+            <a href="https://www.youtube.com/" target="_blank" class="youtube"></a>
+            <a href="https://www.facebook.com/" target="_blank" class="facebook"></a>
+            
+        </div>
+        <div class="footer-bottom">
+           	<h2>Todos los derechos reservados | Diseñado por JEMN & CYLH - 2021</h2>
+    	</div>
+    </footer>
+</body>
+</html>
