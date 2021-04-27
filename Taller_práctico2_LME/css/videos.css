@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding: 0;
+
+}
+article{
+    
+    text-align: center;
+    width: 90%;
+	margin-top: 6em;
+	margin:auto;
+	list-style: none;
+	padding: 20px;
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+
+    justify-content: center;
+}
+.videos h1{
+    margin-top: 10%;
+    text-align: center;
+    margin-bottom: 5%;
+    color: white;
+}
+
+
+.videos  div{
+    display: inline-block;
+    margin-bottom: 10%;
+}
